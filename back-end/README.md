@@ -35,4 +35,12 @@ user ID
 # PostgreSQL Install
 참고링크 : [https://www.postgresql.org/download/linux/ubuntu/]
 
-PostgreSQL port : Default-Port
+PostgreSQL port : Default-Port    
+user : postgres    
+pwd : postgres 또는 did
+user : did     
+pwd : did    
+database member    
+pgadmin : http://ec2-ip/pgamdin
+email : admin@didyou.get    
+pwd : didyou    
