@@ -1,6 +1,6 @@
 # back-end
 
-# AWS EC2 Postgre sql install & config
+# AWS EC2 PostgreSQL Install & Config
 
 AWS EC2 instance impormation
 
@@ -20,6 +20,7 @@ user ID
 * ID : ubuntu     
 
 # How to connect ssh on AWS EC2 instance?
+참고링크 : [https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/putty.html]
 
 1. 인스턴스가 준비되었는지 확인  
     * AWS 계정주인이 인스턴스 실행 중인지 확인, 종료 시 인스턴스가 삭제되니 유의할것
@@ -31,3 +32,5 @@ user ID
 5. Putty 실행
     * 실행 후 public ip:22 로 연결
 
+# PostgreSQL Install
+참고링크 : [https://www.postgresql.org/download/linux/ubuntu/]
