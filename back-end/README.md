@@ -36,8 +36,6 @@ user ID
 참고링크 : [https://www.postgresql.org/download/linux/ubuntu/]
 
 PostgreSQL port : Default-Port    
-user : postgres    
-pwd : postgres 또는 did
 user : xxx      
 pwd : xxx     
 database member    
