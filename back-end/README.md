@@ -34,3 +34,5 @@ user ID
 
 # PostgreSQL Install
 참고링크 : [https://www.postgresql.org/download/linux/ubuntu/]
+
+PostgreSQL port : Default-Port
