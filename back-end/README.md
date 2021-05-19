@@ -41,6 +41,6 @@ pwd : postgres 또는 did
 user : xxx      
 pwd : xxx     
 database member    
-pgadmin : http://ec2-ip/pgamdin
-email : admin@didyou.get    
+pgadmin : private    
+email : xxxx.xxx    
 pwd : xxx    
