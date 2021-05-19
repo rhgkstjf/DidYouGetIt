@@ -38,9 +38,9 @@ user ID
 PostgreSQL port : Default-Port    
 user : postgres    
 pwd : postgres 또는 did
-user : did     
-pwd : did    
+user : xxx      
+pwd : xxx     
 database member    
 pgadmin : http://ec2-ip/pgamdin
 email : admin@didyou.get    
-pwd : didyou    
+pwd : xxx    
