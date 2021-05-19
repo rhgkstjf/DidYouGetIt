@@ -1,8 +1,10 @@
 package com.example.didyougetit
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class SignUpActivity : AppCompatActivity() {
@@ -18,7 +20,33 @@ class SignUpActivity : AppCompatActivity() {
 
         val signUpButton = findViewById<Button>(R.id.button_signup)
         signUpButton.setOnClickListener {
-            TODO("Sign up process")
+            if (checkInformation()) {
+                signUp()
+            }
         }
+    }
+
+    private fun checkInformation(): Boolean {
+        val id = signUpId.text.toString()
+        val pw = signUpPw.text.toString()
+        var result = false
+
+        TODO("check from database")
+
+        if (result) {
+            return true
+        } else {
+            return false
+        }
+    }
+
+    private fun signUp() {
+        val intent = Intent()
+        val id = signUpId.text.toString()
+        val pw = signUpPw.text.toString()
+        intent.putExtra("id", id)
+        intent.putExtra("pw", pw)
+        setResult(RESULT_OK, intent)
+        finish()
     }
 }
